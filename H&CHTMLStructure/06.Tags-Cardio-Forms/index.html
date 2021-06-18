@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Customer Details</legend>
+        <div>
+          <label for="submit-first-name">First Name</label>
+          <input
+            autofocus
+            id="submit-first-name"
+            type="text"
+            placeholder="George"
+          />
+        </div>
+        <div>
+          <label for="submit-last-name">Last Name</label>
+          <input id="submit-last-name" type="text" placeholder="Devis" />
+        </div>
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="other">Other</label>
+          <input type="radio" id="other" name="gender" value="other" />
+        </div>
+        <div id="submit-contact-method">
+          <label for="submit-contact-method">Preferred contact method:</label>
+          <label for="by-email">Email</label>
+          <input type="radio" id="by-email" name="contact" value="email" />
+          <label for="by-phone">Phone</label>
+          <input type="radio" id="by-phone" name="contact" value="phone" />
+        </div>
+        <div>
+          <label for="submit-email">Email</label>
+          <input id="submit-email" type="email" placeholder="your@email.com" />
+        </div>
+        <div>
+          <label for="submit-phone">Phone</label>
+          <input id="submit-phone" type="tel" placeholder="+359885236225" />
+        </div>
+        <div>
+          <label for="submit-town">Town</label>
+          <input id="submit-phone" type="select" list="towns" />
+          <datalist id="towns">
+            <option value="Varna"></option>
+            <option value="Plovdiv"></option>
+            <option value="Burgas"></option>
+            <option value="Sofia"></option>
+            <option value="Pleven"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="submit-age">Age</label>
+          <input id="submit-age" type="number" min="18" />
+        </div>
+        <div>
+          <label for="submit-language">Programming language</label>
+          <select id="submit-language" name="languages">
+            <option value=""></option>
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div>
+          <textarea
+            placeholder="More information..."
+            rows="5"
+            cols="20"
+          ></textarea>
+        </div>
+        <div>
+          <input id="submit-agreement" type="checkbox" />
+          <label for="submit-agreement">I agree the Terms and Conditions</label>
+        </div>
+        <div>
+          <input type="submit" value="Send" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
