@@ -1,0 +1,9 @@
+@import "https://use.fontawesome.com/releases/v5.15.3/css/all.css";
+
+html {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}

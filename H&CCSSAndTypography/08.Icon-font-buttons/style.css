@@ -1,0 +1,16 @@
+@import "https://use.fontawesome.com/releases/v5.15.3/css/all.css";
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+.click a {
+  background-color: green;
+}
+.email a {
+  background-color: orange;
+}
