@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html {
+  font-family: Lato;
+  font-size: 12px;
+}
+body {
+  height: 50vh;
+  width: 70vw;
+  margin: 20% auto auto auto;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.advantages-title {
+  background-color: rgb(66, 171, 248);
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: -36px;
+}
+.advantages-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.advantages-list-item {
+    background-color: rgb(244, 245, 247);
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.advantages-list-item i{
+    font-size: 18px;
+    color: rgb(35, 190, 94);
+    margin-right: 30px;
+    vertical-align: center;
+}
+.advantages-list-item p{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.advantages-list :first-child{
+    border-top-left-radius: 8px;
+}
+.advantages-list :last-child{
+    border-bottom-left-radius: 8px;
+}
