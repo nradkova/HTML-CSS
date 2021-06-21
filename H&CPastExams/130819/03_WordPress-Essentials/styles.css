@@ -129,6 +129,7 @@ button.compete {
   width: 75%;
   margin: 30px auto;
   color: rgb(35, 68, 101);
+  font-weight: 600;
 }
 .main article {
   background-color: rgb(242, 242, 242);
@@ -299,6 +300,10 @@ button.apply-final {
   list-style: none;
   margin-left: 0px;
   padding-left: 0px;
+}
+.links-list li a{
+ color: white;
+ text-decoration: none;
 }
 .links,
 .links-additional {
