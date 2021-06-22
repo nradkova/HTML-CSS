@@ -1,0 +1,21 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+blockquote {
+  font-family: Georgia, serif;
+}
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}
+.title p {
+  font-size: 28px;
+  font-weight: bold;
+}
+h1{
+   font-size: 1.7em;
+}

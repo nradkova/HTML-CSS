@@ -1,0 +1,21 @@
+section {
+  background-color: rgb(245, 245, 245);
+  margin: 20px 60px;
+  max-width: 1200px;
+  padding-top: 50px;
+}
+ul.gallery {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+ul.gallery > li {
+  display: inline-block;
+  vertical-align: middle;
+}
+img {
+  border: 0.4rem solid black;
+  box-sizing: border-box;
+  width: 300px;
+  max-height: 420px;
+  padding: 10px;
+}

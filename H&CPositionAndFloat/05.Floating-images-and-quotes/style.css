@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 20px 150px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+header {
+  padding-bottom: 15px;
+  border-bottom: 2px solid black;
+}
+img {
+  width: 23%;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 7px 4px rgb(0 0 0 / 25%);
+}
+.first-article-content {
+  height: 393px;
+  position: relative;
+}
+.first-article-img {
+  position: absolute;
+  margin-left: 20px;
+  top: 0;
+  right: 0;
+}
+.first-article-content-text {
+  width: 74%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.first-article-content-text p {
+  margin-top: 0;
+}
+.second-article-title {
+  margin-top: 0;
+}
+.second-article-content-middle {
+  position: relative;
+  height: 193px;
+  margin: 15px 0px;
+}
+
+.second-article-content-middle p {
+  width: 48%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+.second-article-content-middle blockquote {
+  width: 40%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  border-left: 2px solid lightgrey;
+  padding-left: 32px;
+}
+.second-article-content-middle blockquote span {
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+}
+.third-article-content {
+  margin-bottom: 24px;
+  position: relative;
+}
+.third-article-img {
+  width: 24%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.third-article-text {
+  width: 72%;
+  position: absolute;
+  display: inline-block;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+.third-article-text p {
+  display: inline-block;
+  margin-top: 0;
+}

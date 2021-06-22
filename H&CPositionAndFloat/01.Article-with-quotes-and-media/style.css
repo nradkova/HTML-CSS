@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(244, 244, 244);
+  margin: 20px 150px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+header {
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.site-title {
+  display: inline-block;
+}
+img {
+  width: fit-content;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.first-article-img {
+  float: right;
+}
+.first-article-img img {
+  float: right;
+  margin-left: 20px;
+}
+.second-article-content-float {
+  width: 47%;
+  float: left;
+}
+.second-article-quote {
+  width: 45%;
+  float: right;
+}
+.second-article-content {
+  clear: both;
+}
+.second-article-quote {
+  border-left: 2px solid lightgrey;
+  padding-left: 32px;
+  font-style: italic;
+}
+.second-article-quote span {
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+}
+.third-article-img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.third-article-content {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,18 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+a{
+    border-radius: 50%;
+    border: 10px solid rgb(238, 238, 238);
+    box-shadow: inset 1px 1px 1px 11px rgb(238, 238, 238);
+}
+i:hover{
+color: blue;
+}
+.fa-google-plus:hover{
+    color: red;
+}

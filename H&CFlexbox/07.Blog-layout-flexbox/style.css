@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 5px lightgrey;
+}
+a {
+  color: rgb(0, 153, 0);
+}
+.page {
+  width: 80vw;
+  margin: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  border-bottom: 2px solid black;
+  flex-basis: 100%;
+}
+.content {
+  flex-basis: 75%;
+}
+.first {
+  margin-bottom: 15px;
+}
+.first img {
+  float: right;
+  margin-left: 15px;
+}
+.second {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+.second :first-child {
+  margin-bottom: 0px;
+}
+.second :nth-child(3) {
+  flex-basis: 50%;
+}
+.second :nth-child(4) {
+  font-style: italic;
+  flex-basis: 40%;
+  margin-right: 0;
+  padding-left: 15px;
+  border-left: 2px solid lightgrey;
+}
+.second :nth-child(4) span {
+  display: block;
+  text-align: right;
+}
+.third img {
+  float: left;
+  margin-right: 15px;
+}
+.aside {
+  flex-basis: 18%;
+  margin-left: 50px;
+}
+.aside ul {
+  list-style-type: square;
+}

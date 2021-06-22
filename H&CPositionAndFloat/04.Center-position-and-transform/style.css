@@ -1,0 +1,63 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+}
+.content {
+  background-color: rgb(255, 255, 255);
+}
+button {
+  background-color: rgb(0, 153, 0);
+}
+.card {
+  width: 350px;
+  height: 414px;
+  border: 2px solid lightslategrey;
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px 5px lightgrey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+img {
+  width: 100%;
+  position: absolute;
+}
+.content {
+  height: 40%;
+  padding: 2% 4%;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+}
+.content p {
+  font-size: 0.9em;
+  margin-bottom: 50px;
+  text-align: left;
+}
+h3 {
+  text-align: left;
+  font-weight: bolder;
+}
+button {
+  color: white;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: none;
+}
