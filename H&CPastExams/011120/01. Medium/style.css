@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, sans-serif;
+  width: 700px;
+  height: 300px;
+  margin: auto;
+}
+h1,
+h6 {
+  font-family: Georgia, serif;
+}
+h1 {
+  font-size: 40px;
+}
+.ads-title {
+  margin-bottom: 5px;
+}
+.ads-subtitle {
+  margin-bottom: -4px;
+}
+.ads-content {
+  display: flex;
+  align-items: flex-end;
+}
+.ads-content-text {
+  flex-basis: 55%;
+}
+.ads-content-text p span {
+  background-color: rgb(206, 253, 233);
+}
+.ads-button {
+  flex-basis: 45%;
+}
+button {
+  background-color: rgb(3, 168, 124);
+  margin-bottom: 23px;
+  padding: 5px 45px 8px 45px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 1px solid rgb(3, 168, 124);
+}
+.ads::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 250px;
+  border-bottom: 1px solid lightgrey;
+  margin: 30px auto 0px auto;
+}
