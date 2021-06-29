@@ -1,0 +1,60 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+nav {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: relative;
+  }
+  .nav-list::after,
+  .nav-list::before {
+    content: "";
+    height: 1px;
+    border-top: 1px solid black;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    display: none;
+  }
+  .nav-title,
+  .nav-list {
+    display: block;
+  }
+  .nav-title {
+    margin: 10px 0px ;
+  }
+  .menu {
+    align-self: center;
+    display: none;
+  }
+  .menu i {
+    padding-right: 5px;
+  }
+  .nav-list {
+    background-color: white;
+    display: flex;
+    padding: 5px 7px 5px 7px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 6px;
+  }
+  .nav-list-item {
+    background-color: rgb(45, 45, 45);
+    border-radius: 6px;
+    list-style-type: none;
+    padding: 6px 14px;
+    justify-content: space-between;
+    margin: 3px;
+  }
+  .aside {
+    flex-basis: 18%;
+    margin-left: 50px;
+  }
+  .aside ul {
+    list-style-type: square;
+  }
+  

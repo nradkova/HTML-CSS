@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px 5px lightgrey;
+}
+a {
+  color: rgb(0, 153, 0);
+}
+.page {
+  padding: 60px 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  border-bottom: 2px solid black;
+  flex-basis: 100%;
+}
+.content {
+  flex-basis: 100%;
+}
+.first {
+  margin-bottom: 15px;
+}
+.first img {
+  float: right;
+  margin-left: 15px;
+}
+.second {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+.second :first-child {
+  margin-bottom: 0px;
+}
+.second :nth-child(3) {
+  flex-basis: 50%;
+}
+.second :nth-child(4) {
+  font-style: italic;
+  flex-basis: 40%;
+  margin-right: 0;
+  padding-left: 15px;
+  border-left: 2px solid lightgrey;
+}
+.second :nth-child(4) span {
+  display: block;
+  text-align: right;
+}
+.third img {
+  float: left;
+  margin-right: 15px;
+}
+.aside {
+  flex-basis: 18%;
+  margin-left: 50px;
+}
+.aside ul {
+  list-style-type: square;
+}
+@media all and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media all and (min-width: 601px) and (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 801px) and(max-width:1300px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 1301px) and(max-width:1800px) {
+  body {
+    font-size: 21px;
+  }
+}
+@media all and (min-width: 1801px) {
+  body {
+    font-size: 23px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .page {
+    padding: 60px 90px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1023px) {
+  .page {
+    padding: 50px 60px;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .page {
+    padding: 0px 20px;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .page {
+    padding: 0px 10px;
+  }
+}
+@media all and (max-width: 319px) {
+  .page {
+    padding: 0px 5px;
+  }
+  .first,
+  .second,
+  .third {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+  }
+  .first img{
+    margin-left: 0px;
+  }
+}

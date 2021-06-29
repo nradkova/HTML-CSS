@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+/* .mq-width,
+.mq-height,
+.mq-ar {
+  position: relative;
+} */
+
+.mq-width::after,
+.mq-height::after,
+.mq-ar::after {
+  color: green;
+  /* position: absolute; */
+  display: inline-block;
+  margin-left: 5px;
+}
+.mq-width::after {
+  content: "Viewport width is larger than 600px";
+}
+.mq-height::after {
+  content: "Viewport height is larger than 600px";
+}
+.mq-ar::after {
+  content: "Aspect Ratio is larger than 8/5";
+}
+
+@media all and (max-width: 600px) {
+  .mq-width::after {
+    display: none;
+  }
+}
+@media all and (max-height: 600px) {
+  .mq-height::after {
+    display: none;
+  }
+}@media all and (max-aspect-ratio: 8/5) {
+  .mq-ar::after {
+    display: none;
+  }
+}

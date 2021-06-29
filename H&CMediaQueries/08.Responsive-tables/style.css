@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(238, 238, 238);
+}
+.table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(51, 51, 51);
+}
+td {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+tr:nth-child(even) {
+  background-color: white;
+}

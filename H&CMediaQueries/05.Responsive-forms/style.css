@@ -1,0 +1,112 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+form {
+  background-color: rgb(248, 248, 248);
+  width: 500px;
+  margin: 80px auto;
+  position: relative;
+}
+legend {
+  background-color: rgb(248, 248, 248);
+  border: 1px solid grey;
+  box-shadow: 1px 1px 8px 1px lightgray;
+  border-radius: 4px;
+  padding: 10px 80px 10px 10px;
+  position: absolute;
+  left: 0%;
+  top: -8%;
+}
+fieldset {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 8px 1px lightgray;
+  border-radius: 6px;
+  padding: 50px 30px;
+}
+input {
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 10px 40px;
+  width: 75%;
+}
+input[type="submit"] {
+  width: auto;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(45, 45, 45);
+}
+.username,
+.password {
+  position: relative;
+}
+label {
+  margin-right: 8px;
+}
+i {
+  position: absolute;
+  left: 26%;
+  top: 37%;
+}
+@media all and (max-width: 319px) {
+    form {
+        width: fit-content;
+      }
+      article > input {
+        display: inline-block;
+        width: 100%;
+        margin-top: 2px;
+      }
+      article > label {
+        margin-bottom: 0px;
+      }
+      i {
+        left: 4%;
+        top: 45%;
+      }
+}
+@media all and (min-width: 320px) and (max-width: 480px) {
+  form {
+    width: fit-content;
+  }
+  article > input {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+  }
+  article > label {
+    margin-bottom: 0px;
+  }
+  i {
+    left: 4%;
+    top: 42%;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 760px) {
+  form {
+    width: fit-content;
+  }
+
+  article > input {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+  }
+  article > label {
+    margin-bottom: 0px;
+  }
+  i {
+    left: 4%;
+    top: 39%;
+  }
+}

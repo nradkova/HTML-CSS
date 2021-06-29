@@ -1,0 +1,43 @@
+@media all and (min-width: 320px) and (max-width: 480px) {
+  body {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  .labels {
+    display: none;
+  }
+  .content,
+  tr,
+  td {
+    display: inline-block;
+    width: 100%;
+  }
+  .content tr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  td {
+    position: relative;
+    padding-left: 110px;
+  }
+  td::before {
+    content: "";
+    font-weight: bolder;
+    margin-right: 15px;
+    height: 100%;
+    position: absolute;
+    left: 12px;
+  }
+  tr td:first-child::before {
+    content: "First Name";
+  }
+  tr td:nth-child(2)::before {
+    content: "Last Name";
+  }
+  tr td:nth-child(3)::before {
+    content: "Job Title";
+  }
+}
