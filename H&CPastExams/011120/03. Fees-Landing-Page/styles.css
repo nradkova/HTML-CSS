@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html {
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+} */
+header {
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+    padding-left: 0px;
+    max-width: 200px;
+}
+.logo img {
+    width: 100%;
+}
+.nav-menu-list {
+    display: flex;
+    list-style-type: none;
+}
+.nav-menu-list li {
+    margin-right: 25px;
+}
+.nav-menu-list li a {
+    text-decoration: none;
+    color: rgb(105, 90, 109);
+    font-size: 18px;
+}
+
+.fees {
+  background-color: rgb(84, 84, 109);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 100px;
+  z-index: 3;
+}
+.fees::after {
+  content: "";
+  min-height: 300px;
+  background-image: url(./images/calculator-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -566px;
+  left: -230px;
+  z-index: 6;
+  position: relative;
+}
+.fees-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.all-programs {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.program {
+  width: 31%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(105, 90, 109);
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.program.design p {
+  padding-bottom: 80px;
+}
+.program.design input {
+  background-color: rgb(154, 93, 198);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.program-info.design {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 156, 62),
+    rgb(74, 213, 127)
+  );
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.program-text{
+    text-align: center;
+}
+.program.fundamentals p,
+.program.professionals p {
+  padding: 0px 20px;
+}
+.program-info.fundamentals,
+.program-info.professionals {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  justify-content: space-around;
+  position: relative;
+}
+.program-info.fundamentals {
+  background-image: linear-gradient(
+    to right,
+    rgb(77, 109, 138),
+    rgb(97, 152, 204)
+  );
+}
+.program-info.professionals {
+  background-image: linear-gradient(
+    to right,
+    rgb(76, 57, 167),
+    rgb(137, 121, 222)
+  );
+}
+
+.program-info.professionals::after,
+.program-info.fundamentals::after {
+  content: "";
+  height: 80px;
+  width: 2px;
+  top: 14px;
+  left: -237px;
+  position: relative;
+  border-right: 2px solid white;
+}
+.education-types {
+  position: unset;
+  padding: 250px 200px 100px 250px;
+  color: rgb(105, 90, 109);
+}
+.education-types h4 {
+  font-weight: 600;
+}
+.types-list {
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.types-list li:first-child {
+  border-top-left-radius: 6px;
+}
+.types-list li:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.types-list li:nth-child(odd) {
+  background-color: rgb(230, 230, 230);
+}
+.types-list li:nth-child(even) {
+  background-color: rgb(248, 248, 248);
+}
+.types-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.types-list li p {
+  width: 600px;
+  padding-left: 20px;
+}
+.types-list li span {
+  margin-right: 80px;
+}
+.fa-check {
+  color: green;
+}
+.fa-times {
+  color: red;
+  font-size: 20px;
+}
+.financing {
+  padding: 0 100px;
+  display: flex;
+  align-items: flex-end;
+}
+.financing-text {
+  color: rgb(105, 90, 109);
+  width: 70%;
+  margin-right: 60px;
+}
+.financing-img img {
+  width: 100%;
+}
+footer {
+  background-color: rgb(84, 84, 109);
+  color: lightgrey;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 100px;
+}
