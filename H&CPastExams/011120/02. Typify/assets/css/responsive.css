@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+  .banner {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .banner h2 {
+    width: 90%;
+    font-size: 1.6em;
+  }
+  .banner p {
+    width: 90%;
+    font-size: 1em;
+  }
+  .banner li {
+    width: 90%;
+  }
+  .banner li a {
+    width: 100%;
+    font-size: 0.8em;
+  }
+  .wrapper.special {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  header.major {
+    margin-bottom: 20px;
+  }
+  .features {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .feature {
+    width: 90%;
+    font-size: 0.8em;
+  }
+  .grid-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .grid-form .form-control.narrow,
+  .grid-form .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .form-control.narrow label,
+  #name,
+  #message,
+  #email {
+    width: 90%;
+   
+  }
+  .actions li{
+    width: 100%;
+  }
+  .actions li input{
+    width: 90%;
+    font-size: 0.8em;
+  }
+  .footer{
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+}
