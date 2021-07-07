@@ -1,49 +1,60 @@
-body {
-  font-family: Helvetica, sans-serif;
-  width: 700px;
-  height: 300px;
-  margin: auto;
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
 }
-h1,
-h6 {
-  font-family: Georgia, serif;
+main{
+    /* width:80vw; */
+    height: 50vh;
+    padding: 80px 150px;
 }
-h1 {
-  font-size: 40px;
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia,  serif;
 }
-.ads-title {
-  margin-bottom: 5px;
+.ad-wrapper{
+    position: relative;
 }
-.ads-subtitle {
-  margin-bottom: -4px;
+.ad-title{
+    font-size: 45px;
 }
-.ads-content {
-  display: flex;
-  align-items: flex-end;
+.ad-content{
+    display: flex;
+    align-items: flex-end
 }
-.ads-content-text {
-  flex-basis: 55%;
+.ad-content-btn{
+    width: 40%;
 }
-.ads-content-text p span {
-  background-color: rgb(206, 253, 233);
+.btn{
+    vertical-align: bottom;
+    padding: 15px 60px;
+    background-color: rgb(3, 168, 124);
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
-.ads-button {
-  flex-basis: 45%;
+.ad-content-text{
+    width: 50%;
 }
-button {
-  background-color: rgb(3, 168, 124);
-  margin-bottom: 23px;
-  padding: 5px 45px 8px 45px;
-  color: white;
-  font-weight: bold;
-  border-radius: 2px;
-  border: 1px solid rgb(3, 168, 124);
+.ad-content-text-title{
+    font-size: 20px;
 }
-.ads::after {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 250px;
-  border-bottom: 1px solid lightgrey;
-  margin: 30px auto 0px auto;
+.ad-sub-title,
+.ad-content-text-inner{
+    color: grey;
+}
+.ad-content-text-inner span{
+    background-color: rgb(206, 253, 233);
+}
+.ad-content-text-inner{
+    margin-bottom: 0px;
+}
+.ad-wrapper::after{
+    content:'';
+    height: 1px;
+    width: 250px;
+    border-bottom: 2px solid grey;
+    position: absolute;
+    bottom: -13%;
+    left: 30%;
 }
