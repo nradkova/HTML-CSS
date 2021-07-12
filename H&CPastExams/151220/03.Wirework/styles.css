@@ -1,0 +1,160 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+html {
+  font-family: Helvetica, sans-serif;
+  color: rgb(162, 162, 169);
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  max-height: 200px;
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-between;
+}
+.headings,
+.menu {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.headings li:first-child {
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+  /* position: absolute; */
+}
+.headings li:first-child::after {
+  content: "";
+  min-width: 30px;
+  height: 60px;
+  border-right: 2px solid lightgrey;
+  position: relative;
+  left:20px;
+}
+.headings li {
+  padding-right: 40px;
+}
+.menu {
+  background-color: rgb(236, 236, 236);
+}
+.menu li {
+  padding: 30px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.menu li:first-child {
+  background-color: rgb(226, 78, 42);
+}
+.menu li:first-child a {
+  color: white;
+}
+.menu li:nth-child(3) {
+  border-left: 2px solid white;
+}
+.menu li:nth-child(4) {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.image {
+  min-width: 100%;
+}
+.image img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.description {
+  background-color: rgb(226, 78, 42);
+  color: white;
+  height: 200px;
+  padding: 50px 220px 0 220px;
+  line-height: 1.8rem;
+  margin-top: -5px;
+}
+.description p {
+  text-align: center;
+  font-size: 18px;
+}
+.description p a {
+  color: white;
+}
+.options,
+.details {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  padding: 80px 50px;
+  justify-content: space-between;
+}
+.options-content,
+.details-content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options-img {
+  background-color: rgb(226, 78, 42);
+  width: 30%;
+  padding: 30px 0;
+  text-align: center;
+}
+.options-img i {
+  color: white;
+  font-size: 50px;
+}
+.options-heading,
+.details-heading {
+  color: white;
+  text-align: center;
+}
+.options-heading::after {
+  content: "";
+  width:300px;
+  display: block;
+  height: 2px;
+  border-bottom: 1px solid grey;
+  position: relative;
+  bottom: -10px;
+}
+.options-text,
+.details-text {
+  text-align: center;
+}
+.subscribe{
+    text-align: center;
+    padding: 50px 150px;
+}
+.subscribe-heading{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color:  rgb(56, 56, 56);
+}
+.subscribe-subheading{
+    margin-top: 5px;
+    font-weight: 500;
+}
+.subscribe input{
+    background-color: rgb(27, 151, 114);
+    color: white;
+    border:none;
+    padding: 15px 40px;
+    margin-top: 15px;
+}
+.details{
+    padding-bottom: 140px;
+}
+footer{
+    background-color: #1b9772;
+    padding: 60px 180px 80px 180px;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:rgb(240, 228, 228);
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+nav.header {
+  background-color: rgb(249, 55, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin-left: 40px;
+}
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-menu li {
+  margin-right: 30px;
+}
+.nav-search  {
+    width:30%
+  }
+.nav-search form {
+  background-color: white;
+  width:100%
+}
+.nav-search input {
+  outline: none;
+  border: none;
+  width: 79.3%;
+}
+.nav-search button {
+  border: none;
+  padding: 10px 10px;
+  width: 20%;
+  color: white;
+  background-color: rgb(182, 175, 175);
+}
+
+.nav-my-account{
+    margin-right: 40px;
+}
+.nav-my-account button {
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+  border: none;
+  position: relative;
+}
+.nav-my-account button i {
+  position: absolute;
+  left: -20px;
+}
+.rooms-types-list{
+    margin: 30px 80px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.rooms-types-list li{
+    width: 23%;
+}
+.rooms-img{
+    width: 100%;
+}
+.rooms-img img{
+    width: 100%;
+}
+.rooms-types-list p{
+    text-align: center;
+    color: grey;
+}
+.collection{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-img{
+    width: 55%;
+}
+.collection-img img{
+    width: 100%;
+}
+.collection-info-title{
+    color:rgb(249, 55, 0);
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.collection-info-text{
+    color:grey;
+    font-size: 12px;
+}
+.shop-now{
+    background-color: rgb(249, 55, 0);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+}
+.services{
+    background-color: rgb(202, 195, 195);
+    margin: 30px 80px;
+}
+.services-list{
+    padding: 50px 200px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.services-list li{
+   width: 30%;
+}
+.services-img{
+    width:70%;
+    border-radius: 50%;
+    background-color: rgb(240, 228, 228);
+  margin: 0 auto;
+}
+.services-img img{
+    width: 100%;
+    transform: scale(0.8);
+}
+.services-title,
+.services-text{
+    text-align: center;
+}
+.services-text{
+    color: grey;
+    font-size: 14px;
+}
+.services-title{
+   color: rgb(71, 66, 66);
+}
+footer{
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.about-us-list,
+.contact-us-list,
+.social-media-list{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    color: grey;
+}
+.social-media-list li,
+.contact-us-list li{
+    margin-right: 15px;
+    font-size: 12px;
+}
+.about-us-list li,
+.contact-us-list li{
+    margin-right: 15px;
+    font-size: 12px;
+    text-align: bottom;
+}
+.about-us-list li a,
+.contact-us-list li a{
+   text-decoration: none;
+   color: grey;
+}
+.about-us-list li:first-child,
+.contact-us-list li:first-child{
+    font-weight: bold;
+    font-size: 16px;
+}
+.social-media-list li a{
+    font-size: 25px;
+    color: grey;
+}
+.contact-us-list li a{
+    background-color:rgb(202, 195, 195);
+    padding: 10px 40px;
+    border-radius: 4px;
+}
