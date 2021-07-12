@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+html {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  margin-bottom: -80px;
+}
+.logo {
+  padding-top: 30px;
+}
+.logo img {
+  width: 60%;
+}
+.contacts {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts li {
+  margin-right: 80px;
+}
+.contacts li a {
+  text-decoration: none;
+  color: grey;
+}
+.contacts li p {
+  font-weight: bold;
+}
+.contacts li input {
+  background-color: rgb(255, 182, 0);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 20px 40px;
+}
+.contacts li:nth-child(1)::after {
+  content: "";
+  height: 60px;
+  display: block;
+  position: relative;
+  border-left: 2px solid lightgrey;
+  right: -188px;
+  top: -71px;
+}
+.contacts li:nth-child(2)::after {
+  content: "";
+  height: 60px;
+  display: block;
+  position: relative;
+  border-left: 2px solid lightgrey;
+  right: -217px;
+  top: -71px;
+}
+.contacts li:last-child {
+  margin-right: 0;
+}
+.nav-options {
+  background-color: rgb(35, 40, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 200px;
+}
+.options {
+  display: flex;
+}
+.options select {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  border: none;
+  margin-right: 30px;
+}
+.options select:hover {
+  color: rgb(255, 182, 0);
+}
+.options a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav-options form input,
+.nav-options form button {
+  background-color: transparent;
+  border: none;
+  color: lightgrey;
+  font-size: 18px;
+}
+.project {
+  background-image: url(images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-title {
+  color: white;
+  font-size: 66px;
+  margin-bottom: 15px;
+}
+.project-links {
+  display: flex;
+}
+.project-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.project-links a:first-child::after {
+  content: "";
+  height: 13px;
+  display: block;
+  border-left: 2px solid white;
+  position: relative;
+  top: -15px;
+  left: 48px;
+}
+.project-links a:nth-child(2)::after {
+  content: "";
+  height: 13px;
+  display: block;
+  border-left: 2px solid white;
+  position: relative;
+  top: -15px;
+  left: 63px;
+}
+.building {
+  padding: 60px 200px;
+  display: flex;
+}
+.building-img {
+  width: 70%;
+}
+.building-img img {
+  width: 100%;
+}
+.building-content {
+  padding-left: 50px;
+}
+.building-content h1 {
+  margin-top: 0px;
+  font-size: 26px;
+}
+.building-content p {
+  margin-bottom: 40px;
+}
+.building-content input {
+  background-color: rgb(255, 182, 0);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+}
+.main-footer {
+  background-color: rgb(3, 3, 3);
+  display: flex;
+  color: grey;
+  padding: 60px 200px;
+  justify-content: space-between;
+}
+.main-footer h3 {
+  color: white;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
+  width: 30%;
+}
+.about-us .logo img {
+  width: 100%;
+}
+.links-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.links-list li {
+  margin-right: 20px;
+}
+.links-list a {
+  color: grey;
+}
+.working-hours {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
+  width: 30%;
+}
+.working-hours p:nth-child(2),
+.working-hours p:nth-child(3),
+.working-hours p:nth-child(4){
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer h3::after {
+  content: "";
+  height: 18px;
+  display: block;
+  border-left: 2px solid rgb(255, 182, 0);
+  position: relative;
+  top: -20px;
+  left: -9px;
+}
+.final {
+  background-color: rgb(255, 182, 0);
+  padding: 30px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.links-final {
+  list-style-type: none;
+  display: flex;
+}
+.links-final li {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.links-final li a {
+  text-decoration: none;
+  color: rgb(35, 40, 45);
+}
